@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*corpo*/
+main{
+width: 80%;
+background-color: red;
+}
+
+.photo{
+    width: 500px;
+    background-color: red;
+}
