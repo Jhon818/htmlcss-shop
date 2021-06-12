@@ -15,7 +15,6 @@ margin: auto;
     display: inline-block;
     margin: 20px 5px 30px;
     position: relative;
-    background-color: red;
 }
 
 .hearts::after{
@@ -41,18 +40,41 @@ img{
     bottom: 10px;
     background-color: red;
     font-size: 12px; 
+    vertical-align: middle;
 }
+
+div :nth-child(3){
+    background-color: royalblue;
+    left: 40px;
+}
+
+/*color*/
+
+
 .description:last-child:after{
 content: "29,99 €";
 text-decoration:line-through;
 position: relative;
+color: grey;
 }
-
 
 .description{
  top: 100%;
 }
 
+.text{
+   color:grey;
+}
+
+.text + p{
+    font-size: 15px;
+}
+
+br{
+    position: absolute;
+    padding: 0;
+    color: red;
+}
     
 
 
