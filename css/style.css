@@ -70,7 +70,7 @@ div :nth-child(3){
     padding: 2px;
 }
 
-.description:last-child:after{
+.description.prize:last-child:after{
 content: "29,99 €";
 text-decoration:line-through;
 position: relative;
@@ -92,15 +92,14 @@ color: grey;
     font-size: 15px;
 }
 
-br{
+br{ 
     position: absolute;   
 }
-
-div:hover {
-background-color: red;
-
+/*hover* img*/
+div:hover .img {
+    display: none; 
 }
-    
+
   
 
 
